@@ -21,5 +21,3 @@ class LoginPage(HomePage):
         self.fill_field("xpath", self.passwordfrompage, password)
         self.press_button("xpath", self.submitfrompage)
         assert "Home" in self.driver.title
-#         TODO: Should return smth???
-
