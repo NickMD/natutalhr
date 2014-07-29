@@ -1,9 +1,10 @@
 import time
 from common import Common
 from main_logged.basepagelogged import BasePageLogged
+from main_logged import quickaddemployeepagelocators
 
 
-class QuickAddEmployee(BasePageLogged):
+class QuickAddEmployeePage(BasePageLogged):
 
     url = "https://www.naturalhr.com/hr/employee/employee-quick-add"
 
